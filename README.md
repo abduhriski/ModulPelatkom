@@ -1,5 +1,5 @@
-Modul Pelatihan Komputasi 2022 <br>
+Modul Pelatihan Komputasi 2023 <br>
 Python <br>
 Abduh Riski, S.Si., M.Si. <br>
 
-https://abduhriski.github.io/Pelatkom2022
+[https://abduhriski.github.io/ModulPelatkom](https://abduhriski.github.io/ModulPelatkom)
