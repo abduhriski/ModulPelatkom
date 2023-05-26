@@ -21640,6 +21640,59 @@ Sebaliknya tuple tidak bisa, sifatnya dinamakan immutable. Persamaannya keduanya
 </div>
 </div>
 </div>
+</div></section></section><section><section>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Challenge">Challenge<a class="anchor-link" href="#Challenge">&#182;</a></h1>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Dodo bekerja pada sebuah perusahaan penyedia layanan internet. Perusahaan tersebut memberi kuota data 15 gigabytes (GB) dengan biaya 100k per bulan. JIka melebihi batas kuota 15 GB, maka akan dikenakan biaya 0.1k per MB (atau 100k per GB, karena 1000 MB sama dengan 1 GB).</p>
+<p>Tuliskan semua kode python dalam bentuk fungsi <code>get_biaya_internet</code> yang menerima input:</p>
+
+<pre><code>`gb` = total GB yang digunakan kostumer dalam satu bulan
+
+</code></pre>
+<p>Output yang dihasilkan adalah total biaya tagihan kostumer.</p>
+<p>Misal,</p>
+<p>Kostumer yang menghabiskan kuoata internet sebesar 10 GB akan ditagih sebesar 100k, karena kuota yang digunakan masih di bawah 15 GB. Dengan kata lain, <code>get_biaya_internet(10)</code> menghasilkan output <code>100</code>.</p>
+<p>Kostumer yang menghabiskan kuota sebesar 15.1 GB (15 GB + 100 MB) dalam sebulan maka harus membayar 100k ditambah 0.1k * 100 = 10k, atau sama dengan 110k. Dengan kata lain, <code>get_biaya_internet(15.1)</code> menghasilkan output <code>110</code>.</p>
+<p>Output dalam bentuk integere (bilangan bulat) atau float (bilangan real).</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># TUGAS: Edit fungsi berikut sehingga menghasilkan output yang sesuai permasalahan di atas.</span>
+
+<span class="k">def</span> <span class="nf">get_biaya_internet</span><span class="p">(</span><span class="n">gb</span><span class="p">):</span>
+    <span class="n">tagihan</span> <span class="o">=</span> <span class="mi">100</span>
+    <span class="k">return</span> <span class="n">tagihan</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div></section></section>
 </div>
 </div>
